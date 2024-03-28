@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  background-image: url(./images/mages.jpeg);
+  background-repeat: repeat-x;
+}
+
+/* ** Todo App main box */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url(./images/Untitled.jpeg);
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #cf2222;
+  color: #fee38b;
+}
+
+/* ** Todo App input box */
+input {
+  width: 60%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 3px solid #ec8787;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* ** Todo App Add button */
+#add-button {
+  padding: 8px 12px;
+  background-color: #49a954;
+  color: #f6f6f4;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* ** Todo App list type */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ** Todo App list results */
+ul li {
+  margin: 10px 0;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fee38b;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #8af962;
+}
+
+/* ** Todo App list results first child */
+ul li:first-child {
+  padding-top: 20px;
+  border-top: none;
+}
+
+/* ** Todo App delete button */
+.delete-button {
+  float: right;
+  margin-right: 60px;
+  background-color: #cf2222;
+  color: #f6f6f4;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
